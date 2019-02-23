@@ -1,0 +1,40 @@
+/* * {
+  border: 1px solid red !important;
+} */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* 设置字体 */
+* {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+body{
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+#logo{
+  height: 100px;
+  display: flex;
+  /* 垂直居中 */
+  align-items: center;
+}
+
+.line {
+  height: 1px;
+  border: none;
+  border-top: 2px solid #02b3e4;
+}
+
+#job{
+  font-size: 15px;
+}
+
+#footerTitle{
+  color: #02b3e4;
+}
